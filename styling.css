@@ -9,6 +9,8 @@ html, body {
 .navbar-toggler{
     background-color: #d1ff18;
 }
+.navbar{position: fixed;
+width: 100%;}
 .navbar .nav-link,.navbar-brand {
   color: white !important;
 }
@@ -179,6 +181,7 @@ border-bottom-right-radius: 0;
    margin-left: 2%;
     
 }
+.major-name,.uni-name,.graduation-date,.graduation-date i{color: #222222;}
 
 .graduation-icon-section{
 background-color: #222222;
@@ -307,12 +310,6 @@ border-radius: 20px;
 margin-left: 5%;
 
 }
-.tec-skills-flex{
-
-display: flex;
-column-gap: 15px;
-margin-left: 5%;
-width: 40%;}
 
 
 .skills-grid{
